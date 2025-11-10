@@ -1,9 +1,9 @@
 {
-  "name": "creava-api",
-  "private": true,
-  "type": "module",
-  "dependencies": {
-    "node-fetch": "^3.3.2",
-    "papaparse": "^5.4.1"
+  "functions": {
+    "api/*.js": {
+      "runtime": "vercel-node@3",
+      "memory": 256,
+      "maxDuration": 10
+    }
   }
 }
