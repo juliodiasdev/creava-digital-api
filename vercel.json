@@ -1,14 +1,10 @@
 {
+  "version": 2,
   "functions": {
     "api/**/*.js": {
-      "runtime": "vercel-node@3",
-      "memory": 256,
-      "maxDuration": 10
+      "runtime": "nodejs20.x"
     }
   },
-  "builds": [
-    { "src": "api/**/*.js", "use": "@vercel/node" }
-  ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/$1" }
   ]
