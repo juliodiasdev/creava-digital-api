@@ -1,0 +1,9 @@
+{
+  "name": "creava-api",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "papaparse": "^5.4.1"
+  }
+}
